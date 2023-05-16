@@ -1,0 +1,79 @@
+.profile {
+  max-width: 50%;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 4px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 15px;
+}
+
+.avatar {
+  display: flex;
+  max-width: 30%;
+  border-radius: 50%;
+  border: 5px dotted black;
+}
+
+.profileName {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.profileTag,
+.profileLocation {
+  margin: 5px;
+  font-size: 30px;
+  color: #6b6c6e;
+}
+
+.stats {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.stats > li {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+  font-size: 1.5rem;
+  text-align: center;
+  border-top: 1px solid #d3d5e3;
+  background-color: rgba(241, 241, 241, 0.833);
+}
+
+.viewsList {
+  border-left: 1px solid #d3d5e3;
+  border-right: 1px solid #d3d5e3;
+}
+
+.followersList{
+    border-radius: 0 0 0 0.5rem;
+}
+
+.likesList{
+    border-radius: 0 0 0.5rem;
+}
+
+.label {
+  padding-bottom: 0.5rem;
+  color: #434345;
+}
+.quantity {
+  font-weight: bold;
+   border-radius: 4px;
+}
